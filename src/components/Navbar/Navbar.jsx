@@ -13,22 +13,20 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
+        </li>
+
+        <li className="p__opensans">
+          <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#">Home</a>
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#">About</a>
+          <a href="#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#">Menu</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#">Awards</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -60,22 +58,20 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen-links">
               <li className="p__opensans">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
+              </li>
+
+              <li className="p__opensans">
+                <a href="#about">About</a>
               </li>
               <li className="p__opensans">
-                <a href="#">Home</a>
+                <a href="#menu">Menu</a>
               </li>
               <li className="p__opensans">
-                <a href="#">About</a>
+                <a href="#awards">Awards</a>
               </li>
               <li className="p__opensans">
-                <a href="#">Menu</a>
-              </li>
-              <li className="p__opensans">
-                <a href="#">Awards</a>
-              </li>
-              <li className="p__opensans">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
